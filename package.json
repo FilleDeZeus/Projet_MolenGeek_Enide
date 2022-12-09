@@ -1,0 +1,23 @@
+{
+  "name": "projet_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilleDeZeus/Projet_MolenGeek_Enide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilleDeZeus/Projet_MolenGeek_Enide/issues"
+  },
+  "homepage": "https://github.com/FilleDeZeus/Projet_MolenGeek_Enide#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^5.2.3"
+  }
+}
