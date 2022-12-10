@@ -1,0 +1,13 @@
+@import "./header";
+@import "./section1";
+@import "./section2";
+
+* {
+    box-sizing: border-box;
+}
+hr {
+    width: 100px;
+    border: 2px solid rgb(255, 173, 22);
+    justify-content: center;
+    display: flex;
+}

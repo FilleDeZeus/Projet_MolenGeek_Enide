@@ -21060,3 +21060,181 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/*header*/
+#le_header {
+  background-image: url(../../../public/images/background/hero.jpeg);
+  height: 85vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+#le_header a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/*nav*/
+#le_header nav {
+  position: absolute;
+  width: 1000px;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#le_header #nom_site a {
+  font-size: 15px;
+}
+
+#le_header .la_navigation {
+  display: flex;
+  align-items: center;
+}
+
+#le_header .la_navigation div, .la_navigation button {
+  margin: 0px 10px;
+}
+
+#le_header .fleche {
+  color: rgb(255, 0, 119);
+}
+
+#le_header .la_navigation button {
+  border: none;
+  background-color: rgb(255, 0, 119);
+  color: black;
+  padding: 7px 12px;
+  border-radius: 3px;
+}
+
+/*titre principal*/
+#le_header .bloc2 {
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  width: 850px;
+}
+
+#le_header .bloc2 h1, #le_header .bloc2 .h1 {
+  font-size: 100px;
+  line-height: 5px;
+}
+
+#le_header .bloc2 p {
+  font-size: 18px;
+}
+
+#le_header #bouton {
+  margin-top: 30px;
+}
+
+#le_header .bloc2 button {
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: solid white 0.5px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 7px;
+}
+
+/*les rÃ©seaux*/
+#le_header #bouton a {
+  font-size: 11px;
+}
+
+#le_header .reseaux_container {
+  width: 800px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#le_header .cheat_bloc {
+  width: 10px;
+}
+
+#le_header .reseaux {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 14px;
+}
+
+#le_header .reseaux p {
+  margin: 0px 10px;
+}
+
+#le_header .reseaux a {
+  margin: 0px 10px;
+  background: rgba(255, 255, 255, 0.319);
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#le_header .reseaux i {
+  margin: 14px;
+}
+
+.section1 {
+  width: 100%;
+  background-image: url(../../../public/images/background/hero.jpeg);
+  background-size: cover;
+  color: white;
+  padding: 10%;
+}
+
+h1, .h1 {
+  font-size: 350%;
+}
+
+button {
+  margin-top: 3%;
+  border: solid rgb(255, 255, 255) 1px !important;
+  border-radius: 0% !important;
+  color: white !important;
+}
+
+.section2 {
+  margin-top: 4%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: white;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  width: 100px;
+  border: 2px solid rgb(255, 173, 22);
+  justify-content: center;
+  display: flex;
+}
