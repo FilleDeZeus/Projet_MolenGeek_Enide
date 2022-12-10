@@ -21240,6 +21240,8 @@ button {
 
 .section3 {
   background-image: url(../../../public/images/background/testi.png);
+  background-size: cover;
+  width: 100%;
 }
 
 .section3 h2, .section3 .h2 {
@@ -21254,6 +21256,20 @@ button {
 
 .temoignages {
   padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 button {
+  width: 5%;
+  height: 30%;
+}
+
+.barre {
+  display: flex;
+  flex-direction: column;
 }
 
 * {
