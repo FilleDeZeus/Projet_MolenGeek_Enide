@@ -1,2 +1,12 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
+
+// $couleur-perso : (
+//     "saumon" : rgb(223, 87, 87),
+// );
+
+$couleur-perso : (
+    "orange" : rgb(207, 130, 22),
+    "rose"   : #df46c8,
+    "saumon" : rgb(112, 67, 67)
+);
