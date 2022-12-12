@@ -3,13 +3,17 @@
 @import "./section2";
 @import "./section3";
 @import "./section4";
+@import "./section5";
+@import "./section6";
+@import "./footer";
+
 
 * {
     box-sizing: border-box;
-    font-family: 'ralewaymedium' ;
+    font-family: 'ralewaymedium';
 }
 
-.titre{
+.titre {
     margin-top: 4%;
     text-align: center;
     justify-content: center;
@@ -18,13 +22,56 @@
     align-items: center;
 }
 
-.titre h2{
+.titre h2 {
     margin-top: 5%;
 }
 
-.titre hr{
+.titre hr {
     border: 1px solid rgb(255, 0, 0);
     margin-right: 45%;
     margin-left: 45%;
     margin-top: 0%;
+}
+
+
+// ----------
+
+@media screen and (max-width: 380px) {
+    .section2 {
+        height: auto;
+    }
+
+    .services {
+        display: flex;
+        justify-content: center;
+        margin-top: 6%;
+        flex-direction: column;
+    }
+
+    .service {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section4 {
+        height: auto;
+    }
+
+    .row {
+        display: block;
+        justify-content: center;
+        margin-top: 6%;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .made {
+        opacity: 0%;
+    }
 }
