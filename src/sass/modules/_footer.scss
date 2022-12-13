@@ -1,6 +1,7 @@
 .footer {
-    height: 500px;
+    width: 100%;
     background-color: grey;
+    color: white; 
 }
 
 .footer .col {
@@ -15,4 +16,11 @@
     
     align-items: center;
     font-size: 0.6em;
+}
+.footer a{
+    border: none;
+}
+
+.btn {
+    border: none;
 }

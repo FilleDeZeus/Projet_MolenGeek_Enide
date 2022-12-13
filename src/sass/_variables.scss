@@ -8,6 +8,7 @@
 $couleur-perso : (
     "orange" : rgb(207, 130, 22),
     "rose" : #df46c8 ,
-    "saumon" : rgb(112, 67, 67)
+    "saumon" : rgb(243, 102, 102),
+    "transparent1" : rgba(62, 59, 59, 0.632)
 );
 $theme-colors : map-merge($theme-colors , $couleur-perso);
